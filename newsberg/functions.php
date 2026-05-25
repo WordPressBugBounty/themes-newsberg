@@ -43,6 +43,11 @@ function newsberg_setup() {
 			'default-text-color'	=> '#143745'
 		);
 		add_theme_support( 'custom-header', $args );
+
+		add_theme_support( 'title-tag' );
+
+		// Add default posts and comments RSS feed links to head.
+		add_theme_support( 'automatic-feed-links' );
 }
 endif;
 add_action( 'after_setup_theme', 'newsberg_setup' );

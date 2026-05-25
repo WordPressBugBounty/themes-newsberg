@@ -10,7 +10,7 @@ if ( ! is_active_sidebar( 'front-left-page-sidebar' ) ) {
 }
 ?>
 
-<aside class="col-md-3">
+<aside class="col-md-3 sidebar-sticky">
 	<div id="sidebar-left" class="mg-sidebar">
 		<?php dynamic_sidebar( 'front-left-page-sidebar' );
 		 ?>

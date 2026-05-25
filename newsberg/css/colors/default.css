@@ -848,3 +848,25 @@ div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-contai
     color: #fff;
     border-color: #d10014;
 }
+
+.x-twitter{
+	background: #333;
+	color: #fff;
+}
+footer .mg-widget, footer .mg-widget a {
+    color: #fff;
+}
+.wp-block-search .wp-block-search__label::after, .mg-widget .wp-block-group h2::after {
+    background-color: #d10014;
+}
+footer .mg-widget h6 {
+    background: #d10014;
+    color: #fff;
+}
+footer .mg-widget h6::before {
+    border-left-color: #d10014;
+    border-color: transparent transparent transparent #d10014;
+}
+footer .mg-widget h6::after {
+    background-color: #d10014;
+}
